@@ -21,7 +21,7 @@ The backend tests cover financial calculations, input validation, authentication
 
 Validation used Python 3.12.14, Node.js 24.19.0, the project's pinned Playwright 1.62.1 and Chromium 153.0.8010.0. The default Playwright browser download failed in this environment. A temporary `@sparticuz/chromium` 153.0.0 package supplied a Chromium executable; its binary was extracted without archive ownership changes because this filesystem rejected those operations. The successful run used the smoke script's existing `CHROMIUM_MODULE` and `CHROMIUM_EXECUTABLE` options and `PYTHON_BIN` pointing to the installed validation environment.
 
-The temporary browser package is not an application dependency and is not committed. The default Playwright-installed browser and the documented Node.js 22 minimum were not separately tested in this local run. Backend warnings concern Starlette's httpx integration and an AnyIO alias; they did not cause test failures.
+The temporary browser package is not an application dependency and is not committed. The default Playwright-installed browser and Node.js 22 were not tested locally. They were subsequently exercised successfully by the remote GitHub Actions job using the committed workflow. Backend warnings concern Starlette's httpx integration and an AnyIO alias; they did not cause test failures.
 
 ## Checks not established by these results
 
@@ -29,8 +29,10 @@ The temporary browser package is not an application dependency and is not commit
 - A real PostgreSQL server was not tested.
 - Production deployment, multi-process rate limiting and operational security were not validated.
 - No expected-return forecast, optimization study or trading backtest was executed.
-- GitHub Actions results must be confirmed through the remote workflow run; local success does not establish CI success.
+
 
 ## Remote publication verification
 
-Pending until the full migration commit is published and its `main` ref and every stored file hash are re-read from GitHub. Legacy README updates must follow that integrity check.
+GitHub's `main` ref matched migration commit `83065f63f2b1b2bf5897aad0276e72ae4ff346bc`. All 45 remote files matched the prepared blob hashes, with no missing or unexpected files and an untruncated tree response. All 40 original application files remained unchanged in `project-invest/ea-inversion/` after the legacy notices were committed. The pre-migration commit is retained on `legacy/portfolio-copilot-source`.
+
+GitHub confirmed [workflow run 37078515559](https://github.com/8z97y6wgr2-sys/portfolio-copilot/actions/runs/37078515559) completed successfully for the migration commit. The `verify` job and its backend tests, TypeScript check, production build, default Chromium installation and browser smoke step all reported success. This document-only follow-up records those observed results; it does not create a new application validation run.
