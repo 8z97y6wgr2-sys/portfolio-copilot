@@ -1,0 +1,298 @@
+{
+  "source_repository": "8z97y6wgr2-sys/project-invest",
+  "source_commit": "7dbb2403a7290df75392e830c7d4cd6a2ebc16f7",
+  "source_directory": "ea-inversion/",
+  "destination_repository": "8z97y6wgr2-sys/portfolio-copilot",
+  "files": [
+    {
+      "source_path": "ea-inversion/.env.example",
+      "destination_path": ".env.example",
+      "source_blob_sha": "7ea026cd5de6ac56bf2bfb7e253cee558d37d7b0",
+      "destination_blob_sha": "7ea026cd5de6ac56bf2bfb7e253cee558d37d7b0",
+      "content_unchanged": true
+    },
+    {
+      "source_path": "ea-inversion/.github/workflows/ci.yml",
+      "destination_path": ".github/workflows/ci.yml",
+      "source_blob_sha": "0d21d8e640f12d20e0b0529bab80131df7cd28ac",
+      "destination_blob_sha": "761ec090dbe894207ea61b96580a036bf50933f7",
+      "content_unchanged": false
+    },
+    {
+      "source_path": "ea-inversion/.gitignore",
+      "destination_path": ".gitignore",
+      "source_blob_sha": "8447f7aa660e583883a81b909eb12ed9441e4b74",
+      "destination_blob_sha": "197388547dacf8b2c5b4e18d1d692467211f9a58",
+      "content_unchanged": false
+    },
+    {
+      "source_path": "ea-inversion/README.md",
+      "destination_path": "docs/archive/readme-0.2.0.es.md",
+      "source_blob_sha": "72a7df7a018bab735159f6b5814206a47d1f8437",
+      "destination_blob_sha": "1d8b758bd5c403d6ab9d2592d3c670ff3ba43872",
+      "content_unchanged": false
+    },
+    {
+      "source_path": "ea-inversion/apps/web/.env.example",
+      "destination_path": "frontend/.env.example",
+      "source_blob_sha": "e70f5e29c91a2610de978a199f3a5dd039e03649",
+      "destination_blob_sha": "e70f5e29c91a2610de978a199f3a5dd039e03649",
+      "content_unchanged": true
+    },
+    {
+      "source_path": "ea-inversion/apps/web/app/api/[...path]/route.ts",
+      "destination_path": "frontend/app/api/[...path]/route.ts",
+      "source_blob_sha": "47291e1c5bc380bd04a07fce4f7a5c8886a4fec5",
+      "destination_blob_sha": "47291e1c5bc380bd04a07fce4f7a5c8886a4fec5",
+      "content_unchanged": true
+    },
+    {
+      "source_path": "ea-inversion/apps/web/app/api/analyze/route.ts",
+      "destination_path": "frontend/app/api/analyze/route.ts",
+      "source_blob_sha": "bbf184c0e11b094955e9984548791b187df2c370",
+      "destination_blob_sha": "bbf184c0e11b094955e9984548791b187df2c370",
+      "content_unchanged": true
+    },
+    {
+      "source_path": "ea-inversion/apps/web/app/lab/page.tsx",
+      "destination_path": "frontend/app/lab/page.tsx",
+      "source_blob_sha": "7026fa5eee108107a3044e206213f1b4d91f5211",
+      "destination_blob_sha": "7026fa5eee108107a3044e206213f1b4d91f5211",
+      "content_unchanged": true
+    },
+    {
+      "source_path": "ea-inversion/apps/web/app/layout.tsx",
+      "destination_path": "frontend/app/layout.tsx",
+      "source_blob_sha": "4b42115906d11789adef4b49da92f0a109a7b51e",
+      "destination_blob_sha": "4b42115906d11789adef4b49da92f0a109a7b51e",
+      "content_unchanged": true
+    },
+    {
+      "source_path": "ea-inversion/apps/web/app/page.tsx",
+      "destination_path": "frontend/app/page.tsx",
+      "source_blob_sha": "2dae6a54e46d0356b300555d4dcd2fc1850c8f11",
+      "destination_blob_sha": "2dae6a54e46d0356b300555d4dcd2fc1850c8f11",
+      "content_unchanged": true
+    },
+    {
+      "source_path": "ea-inversion/apps/web/app/style.css",
+      "destination_path": "frontend/app/style.css",
+      "source_blob_sha": "b86cab1eca78de04802c9d4e8eac89cfefe0188a",
+      "destination_blob_sha": "b86cab1eca78de04802c9d4e8eac89cfefe0188a",
+      "content_unchanged": true
+    },
+    {
+      "source_path": "ea-inversion/apps/web/components/auth.tsx",
+      "destination_path": "frontend/components/auth.tsx",
+      "source_blob_sha": "07ba20f66daab1e0250287e501e37e210c06ffd2",
+      "destination_blob_sha": "07ba20f66daab1e0250287e501e37e210c06ffd2",
+      "content_unchanged": true
+    },
+    {
+      "source_path": "ea-inversion/apps/web/components/chart.tsx",
+      "destination_path": "frontend/components/chart.tsx",
+      "source_blob_sha": "d24c2bf0dbd5bdf03f05012c6927d218629826e8",
+      "destination_blob_sha": "d24c2bf0dbd5bdf03f05012c6927d218629826e8",
+      "content_unchanged": true
+    },
+    {
+      "source_path": "ea-inversion/apps/web/components/icons.tsx",
+      "destination_path": "frontend/components/icons.tsx",
+      "source_blob_sha": "1e12dc9b6dfaa4e9fe2752cf76f0e443580692eb",
+      "destination_blob_sha": "1e12dc9b6dfaa4e9fe2752cf76f0e443580692eb",
+      "content_unchanged": true
+    },
+    {
+      "source_path": "ea-inversion/apps/web/lib/api.ts",
+      "destination_path": "frontend/lib/api.ts",
+      "source_blob_sha": "19d7518ab894a090f9dd6c5d5b3ef9973eee4ae7",
+      "destination_blob_sha": "19d7518ab894a090f9dd6c5d5b3ef9973eee4ae7",
+      "content_unchanged": true
+    },
+    {
+      "source_path": "ea-inversion/apps/web/lib/proxy.ts",
+      "destination_path": "frontend/lib/proxy.ts",
+      "source_blob_sha": "732ef73e1f2b0bfa9367cb3c38550f13c27b29df",
+      "destination_blob_sha": "732ef73e1f2b0bfa9367cb3c38550f13c27b29df",
+      "content_unchanged": true
+    },
+    {
+      "source_path": "ea-inversion/apps/web/next-env.d.ts",
+      "destination_path": "frontend/next-env.d.ts",
+      "source_blob_sha": "830fb594ca2970a827555c28a253b097367e08d8",
+      "destination_blob_sha": "830fb594ca2970a827555c28a253b097367e08d8",
+      "content_unchanged": true
+    },
+    {
+      "source_path": "ea-inversion/apps/web/package-lock.json",
+      "destination_path": "frontend/package-lock.json",
+      "source_blob_sha": "9519131998ec663250b52692568388d5f57b9115",
+      "destination_blob_sha": "7894f795de2fa5874b94e1978986cf38bcef8dd7",
+      "content_unchanged": false
+    },
+    {
+      "source_path": "ea-inversion/apps/web/package.json",
+      "destination_path": "frontend/package.json",
+      "source_blob_sha": "5d066c9004ef4d5ba4155bac5feeeaba2f368a4e",
+      "destination_blob_sha": "68189f4ec408e978b3af048663aa591de35f2c49",
+      "content_unchanged": false
+    },
+    {
+      "source_path": "ea-inversion/apps/web/tsconfig.json",
+      "destination_path": "frontend/tsconfig.json",
+      "source_blob_sha": "a514bbb136067dda46875d55000af85f1cc94941",
+      "destination_blob_sha": "a514bbb136067dda46875d55000af85f1cc94941",
+      "content_unchanged": true
+    },
+    {
+      "source_path": "ea-inversion/backend/app/auth.py",
+      "destination_path": "backend/app/auth.py",
+      "source_blob_sha": "a2bb415ef62404d6ec2642c6519c1070aca80d9a",
+      "destination_blob_sha": "a2bb415ef62404d6ec2642c6519c1070aca80d9a",
+      "content_unchanged": true
+    },
+    {
+      "source_path": "ea-inversion/backend/app/config.py",
+      "destination_path": "backend/app/config.py",
+      "source_blob_sha": "10a50db0336dafc5fc8a93ffa44cbe49cc1ba343",
+      "destination_blob_sha": "10a50db0336dafc5fc8a93ffa44cbe49cc1ba343",
+      "content_unchanged": true
+    },
+    {
+      "source_path": "ea-inversion/backend/app/db.py",
+      "destination_path": "backend/app/db.py",
+      "source_blob_sha": "c45a9884ed3f02777f2885c3dcc201907bbf4edb",
+      "destination_blob_sha": "c45a9884ed3f02777f2885c3dcc201907bbf4edb",
+      "content_unchanged": true
+    },
+    {
+      "source_path": "ea-inversion/backend/app/demo.py",
+      "destination_path": "backend/app/demo.py",
+      "source_blob_sha": "c14c8a83c0a8e6097b3edb1f4cdefcdc9f231982",
+      "destination_blob_sha": "c14c8a83c0a8e6097b3edb1f4cdefcdc9f231982",
+      "content_unchanged": true
+    },
+    {
+      "source_path": "ea-inversion/backend/app/engine.py",
+      "destination_path": "backend/app/engine.py",
+      "source_blob_sha": "25ec448e4f171eaa0edd10bcd29769466623fe6e",
+      "destination_blob_sha": "25ec448e4f171eaa0edd10bcd29769466623fe6e",
+      "content_unchanged": true
+    },
+    {
+      "source_path": "ea-inversion/backend/app/main.py",
+      "destination_path": "backend/app/main.py",
+      "source_blob_sha": "f9bebebd1caa7f85381806742559cad1dd33eaa9",
+      "destination_blob_sha": "f9bebebd1caa7f85381806742559cad1dd33eaa9",
+      "content_unchanged": true
+    },
+    {
+      "source_path": "ea-inversion/backend/app/market.py",
+      "destination_path": "backend/app/market.py",
+      "source_blob_sha": "4a08380ebd6e77d179beb6f9411ca122999fa338",
+      "destination_blob_sha": "4a08380ebd6e77d179beb6f9411ca122999fa338",
+      "content_unchanged": true
+    },
+    {
+      "source_path": "ea-inversion/backend/app/portfolios.py",
+      "destination_path": "backend/app/portfolios.py",
+      "source_blob_sha": "0f21d6e2739ce798412cbb8dd768bdfa7b60110c",
+      "destination_blob_sha": "0f21d6e2739ce798412cbb8dd768bdfa7b60110c",
+      "content_unchanged": true
+    },
+    {
+      "source_path": "ea-inversion/backend/app/schemas.py",
+      "destination_path": "backend/app/schemas.py",
+      "source_blob_sha": "6741d8c13ffb0885f01187df6efa44e4d5e84f7f",
+      "destination_blob_sha": "6741d8c13ffb0885f01187df6efa44e4d5e84f7f",
+      "content_unchanged": true
+    },
+    {
+      "source_path": "ea-inversion/backend/requirements.txt",
+      "destination_path": "backend/requirements.txt",
+      "source_blob_sha": "9a989fab33f35089cedb77cdf7a58a009a42dba2",
+      "destination_blob_sha": "9a989fab33f35089cedb77cdf7a58a009a42dba2",
+      "content_unchanged": true
+    },
+    {
+      "source_path": "ea-inversion/backend/tests/test_api.py",
+      "destination_path": "tests/backend/test_api.py",
+      "source_blob_sha": "fb457b9872f261c11fcaf9bc19cb3c756407fddb",
+      "destination_blob_sha": "fb457b9872f261c11fcaf9bc19cb3c756407fddb",
+      "content_unchanged": true
+    },
+    {
+      "source_path": "ea-inversion/backend/tests/test_engine.py",
+      "destination_path": "tests/backend/test_engine.py",
+      "source_blob_sha": "c3c695208416feedf0a42cca4537ff00466595f0",
+      "destination_blob_sha": "c3c695208416feedf0a42cca4537ff00466595f0",
+      "content_unchanged": true
+    },
+    {
+      "source_path": "ea-inversion/backend/tests/test_market.py",
+      "destination_path": "tests/backend/test_market.py",
+      "source_blob_sha": "f91e4cfe8917ade9a9e00222f44600385403245c",
+      "destination_blob_sha": "f91e4cfe8917ade9a9e00222f44600385403245c",
+      "content_unchanged": true
+    },
+    {
+      "source_path": "ea-inversion/backend/tests/test_portfolios.py",
+      "destination_path": "tests/backend/test_portfolios.py",
+      "source_blob_sha": "1cbaf57b915609344962b8b9e1c194ef1ae9a5df",
+      "destination_blob_sha": "1cbaf57b915609344962b8b9e1c194ef1ae9a5df",
+      "content_unchanged": true
+    },
+    {
+      "source_path": "ea-inversion/docs/ENTREGA.md",
+      "destination_path": "docs/archive/delivery-2026-09-21.es.md",
+      "source_blob_sha": "1e0a70c0b8f825e22c0bcde57630d708ec9affcf",
+      "destination_blob_sha": "983955fc23477c7ac2dc23f3193c45ea7797eea5",
+      "content_unchanged": false
+    },
+    {
+      "source_path": "ea-inversion/docs/captura-escritorio.png",
+      "destination_path": "docs/screenshots/dashboard-desktop.png",
+      "source_blob_sha": "43695b7f9d9207e1d1e3a21543ddf18089c775c0",
+      "destination_blob_sha": "43695b7f9d9207e1d1e3a21543ddf18089c775c0",
+      "content_unchanged": true
+    },
+    {
+      "source_path": "ea-inversion/docs/captura-movil.png",
+      "destination_path": "docs/screenshots/dashboard-mobile.png",
+      "source_blob_sha": "7746c285c1ac44843e8752c5695eb16afa762f4a",
+      "destination_blob_sha": "7746c285c1ac44843e8752c5695eb16afa762f4a",
+      "content_unchanged": true
+    },
+    {
+      "source_path": "ea-inversion/pytest.ini",
+      "destination_path": "pytest.ini",
+      "source_blob_sha": "e071ebe5d0bdd581e8d85069fcd3cc555ddd8c4e",
+      "destination_blob_sha": "b182c15ae64bad0fc4d72d78e420471e4126757a",
+      "content_unchanged": false
+    },
+    {
+      "source_path": "ea-inversion/scripts/browser-smoke.mjs",
+      "destination_path": "scripts/browser-smoke.mjs",
+      "source_blob_sha": "5e6f564dc5d7c40bf8ac9b27a45a7e42f55c4b57",
+      "destination_blob_sha": "45b14b72c8de02799eb44aecda8d8901457e1769",
+      "content_unchanged": false
+    },
+    {
+      "source_path": "ea-inversion/scripts/dev.py",
+      "destination_path": "scripts/dev.py",
+      "source_blob_sha": "409f65540b4457dcc399e93224f365efc05bc7bf",
+      "destination_blob_sha": "22951dc7baf50b8e1b62627ded42900b95570141",
+      "content_unchanged": false
+    }
+  ],
+  "excluded_source_root_files": [
+    {
+      "path": ".DS_Store",
+      "reason": "Operating-system metadata; not part of application."
+    },
+    {
+      "path": "README.md",
+      "reason": "Legacy repository title; original is retained in source repository history."
+    }
+  ]
+}
